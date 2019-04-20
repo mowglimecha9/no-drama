@@ -4,7 +4,7 @@
             <div class="row">
                 
                 <div class="col col-lg-12 col-xs-12" >
-                    <h6> {{item.data.title}}</h6>
+                    <!-- <h6> {{item.data.title}}</h6> -->
                     <video v-if="item.data.is_video " muted autoplay loop>
                          <source :src="item.data.secure_media.reddit_video.scrubber_media_url" type="video/mp4">
                     </video>
